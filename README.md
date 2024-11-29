@@ -26,19 +26,9 @@ This project provides tools to:
 
 ### 🎥 Demo Video
 
-<div align="center">
-  <video width="600" controls>
-    <source src="https://github.com/Ahanmr/peer-review-analyzer/raw/main/streamlit_demo.mov" type="video/quicktime">
-    Your browser does not support the video tag.
-  </video>
-</div>
-
-<div align="center">
-  <a href="https://github.com/Ahanmr/peer-review-analyzer/raw/main/streamlit_demo.mov">
-    <img src="docs/demo.gif" alt="Dashboard Demo" width="600"/>
-  </a>
-  <p><i>Click to watch the full demo video</i></p>
-</div>
+<a href="https://youtu.be/qzt3Z9dwf0k">
+  <img src="https://img.youtube.com/vi/qzt3Z9dwf0k/maxresdefault.jpg" alt="Watch the video" width="600">
+</a>
 
 The demo shows our interactive Streamlit dashboard in action:
 - Overview page with review statistics and distributions
