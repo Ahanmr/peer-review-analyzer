@@ -82,7 +82,7 @@ st.set_page_config(page_title="OpenReview Analysis", layout="wide")
 @st.cache_data
 def load_data():
     # Read the full dataset
-    df = pd.read_csv('reviews.csv')
+    df = pd.read_csv('data/reviews.csv')
     
     # Get unique paper_ids to ensure we sample complete sets of reviews
     unique_papers = df['paper_id'].unique()
