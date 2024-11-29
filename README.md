@@ -24,6 +24,23 @@ This project provides tools to:
 2. Analyze review patterns, sentiments, and trends
 3. Visualize review data through an interactive Streamlit dashboard
 
+### 🎥 Demo Video
+
+<div align="center">
+  <video width="600" controls>
+    <source src="streamlit_demo.mov" type="video/quicktime">
+    Your browser does not support the video tag.
+  </video>
+</div>
+
+The demo shows our interactive Streamlit dashboard in action:
+- Overview page with review statistics and distributions
+- Embeddings visualization using t-SNE and UMAP
+- Sentiment analysis and review patterns
+- Interactive word clouds for positive/negative reviews
+- Reviewer insights with correlation matrices
+- Powerful keyword search functionality with context highlighting
+
 ## Installation
 
 ```bash
