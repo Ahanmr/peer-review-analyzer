@@ -28,9 +28,16 @@ This project provides tools to:
 
 <div align="center">
   <video width="600" controls>
-    <source src="streamlit_demo.mov" type="video/quicktime">
+    <source src="https://github.com/Ahanmr/peer-review-analyzer/raw/main/streamlit_demo.mov" type="video/quicktime">
     Your browser does not support the video tag.
   </video>
+</div>
+
+<div align="center">
+  <a href="https://github.com/Ahanmr/peer-review-analyzer/raw/main/streamlit_demo.mov">
+    <img src="docs/demo.gif" alt="Dashboard Demo" width="600"/>
+  </a>
+  <p><i>Click to watch the full demo video</i></p>
 </div>
 
 The demo shows our interactive Streamlit dashboard in action:
