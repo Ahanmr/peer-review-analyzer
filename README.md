@@ -28,7 +28,7 @@ This project provides tools to:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/peer-review-analyzer.git
+git clone https://github.com/Ahanmr/peer-review-analyzer.git
 cd peer-review-analyzer
 
 # Install dependencies
@@ -178,18 +178,6 @@ Reviews are stored in compressed CSV format with the following columns:
 - `review_text`: The actual review content
 - `timestamp`: When the review was submitted
 
-## Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## Acknowledgments
 
 - OpenReview.net for providing access to peer review data
@@ -199,5 +187,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 <div align="center">
-Made with ❤️ for the research community
+Made for the research community
 </div>
