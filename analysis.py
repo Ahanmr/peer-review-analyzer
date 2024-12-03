@@ -23,6 +23,7 @@ class OpenReviewAnalyzer:
             username (str, optional): OpenReview username/email
             password (str, optional): OpenReview password
         """
+        # To-Do: current behavior is to ask for Username and Password everytime the code run. The os.getenv() doesn't seems to properly read the .env file 
         try:
             if username is None:
                 username = os.getenv('OPENREVIEW_USERNAME')
@@ -60,6 +61,9 @@ class OpenReviewAnalyzer:
         Returns:
             list: List of venue IDs
         """
+        # To-Do : need to figure out better way to print this, on terminal or elsewhere that allows for proper scrolling. 
+        # Better even let's have a filesave function here that save the venue number and desc into .csv 
+        # A follow up venue_analysis.py should be worked on to produce a visualization of available venue. 
         try:
             venues = self.client.get_group(id='venues')
             if venues and hasattr(venues, 'members'):
