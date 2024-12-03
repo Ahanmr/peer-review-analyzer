@@ -94,6 +94,7 @@ def scrape_conference(conference: str, year: int) -> None:
     reviews_df.to_csv(output_file, index=False, compression='bz2')
     print(f"Data saved to {output_file}")
 
+# To-Do , make this option for conferences and years to be available as user selection. We first download all the dataset that works with existing scraper.py
 if __name__ == "__main__":
     conferences = ['NeurIPS', 'ICLR']
     years = range(2020, 2024)
